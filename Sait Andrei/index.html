@@ -3,6 +3,8 @@
 <head>
 	<title>Недорогой ремонт квартир в Москве и Московской Области</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 </head>
 <body>
 	<main>
@@ -37,6 +39,55 @@
 					от 3991руб/m2
 				</h3>
 			</div>
+			<span class="cbutton" id=""  onclick="">
+				Закажи СЕЙЧАС!
+			</span>
+			<div class="dialog"></div>
+			<div id="dialog1" class="" >
+			 
+			  <form class="frame">
+			  	<table class="table">
+			    <fieldset>
+			    <tr>
+			    	<td>
+			      		<label for="name">Ваше имя:</label>
+			      	</td>
+			      	<td>
+			      		<input type="text" name="name" id="name"  >
+			      	</td>
+			    </tr>
+			    <tr>
+			    	<td>
+			      		<label for="name">Tелефон:</label>
+			      	</td>
+			      	<td>
+			      		<input type="tel" name="tel" id="tel"  >
+			      	</td>
+			    </tr>
+			    <tr>
+			    	<td>
+			      		<label for="name">О заказе:</label>
+			      	</td>
+			      	<td>
+			      		<textarea name="msg" id="msg"  ></textarea>
+			      	</td>
+			    </tr>
+			    <tr>
+			    	
+			      		
+			      	
+			      	<td colspan="2">
+			      		<input type="submit" name="submit" value="Заказать">
+			      	</td>
+			    </tr>
+			     
+			 
+			      <!-- Allow form submission with keyboard without duplicating the dialog button -->
+			      <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+			    </fieldset>
+				</table>
+			  </form>
+			</div>
 
 			<div class="opacity">
 
@@ -45,7 +96,7 @@
 		</section>
 		<section class="sec2">
 			<article>
-				Качественный и недорогой ремонт идеальная комбинация для вашей квартиры в Москве, МО. Переоформление дома принесёт свежесть и комфорт в жизни. Мы готовы удивить клиентов новыми технологиями ремонта без больших затрат сделать премиум обновление в жилище. Для нас важно чтобы работа было выполнена по высоким стандартам
+				Качественный и недорогой ремонт это идеальная комбинация для вашей квартиры в Москве, МО. Переоформление дома принесёт свежесть и комфорт в жизни. Мы готовы удивить клиентов новыми технологиями ремонта без больших затрат сделать премиум обновление в жилище. Для нас важно чтобы работа было выполнена по высоким стандартам!
 			</article>
 			<div class="opacity">
 			</div>
@@ -64,3 +115,6 @@
 
 </body>
 </html>
+<script src="js/index.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" async></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" async></script>

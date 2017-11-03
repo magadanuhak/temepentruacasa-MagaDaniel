@@ -1,0 +1,336 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf");
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+body{
+	background: #f3f1f2;
+
+}
+/* Stilurile pentru header */
+.site-header{
+	width: 1280px;
+	height:60px;
+	margin:0px;
+	
+	background:#ffffff;
+}
+.logo{float: left;
+	width: 30%;
+	height:47.24px; 
+	margin-top:10px;
+
+}
+.logo img{
+	margin-left:154px;
+}
+/* Stilurile pentru navigare sus */
+.nav{float: left;
+	width:35% ;
+	height:60px ;
+	
+	
+	margin-top: 0;
+}
+.nav ul li{
+	margin-top:10px;
+	list-style: none;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.nav ul {
+	padding:0; 
+	margin:0;
+}
+.nav ul li a{ 
+	color:#9dacad;
+
+	padding-top: 14px;
+	font-family: 'Slabo 40px', serif;
+	display: block;
+	height: 28px;
+
+	float:left;
+	margin:2px;
+	text-decoration: none;
+}
+.nav ul li a:hover{
+	
+	color:#e94e38;
+}
+.navsearch{
+	float:left;
+	width: 35%;
+	
+}
+.searchbtn{
+	width: 45px;
+	height:45px;
+	background:#e2dee0;
+
+}
+
+.logbtn{
+	padding-top: 20px;
+	font-family: 'Slabo 40px', serif;
+	text-align:center;
+	float:left;
+	display: block;
+	background:#e94e38;
+	color:white;
+	width: 388px;
+	height: 40px;
+}
+
+.md{
+	float:left;
+	width: 39px;
+	height:39px;
+	background:#e2dee0;
+	padding-top:21px;
+	padding-left:21px;
+	color:white;
+
+}
+/* Stilurile pentru imaginea mare si cautarea avansata */
+.csearch{
+	background: url(../img/bg_search.jpg);
+	width:1280px;
+	height: 440px;
+
+}
+.main-content{
+	width:1281px;
+	margin-left:3%;
+	margin-right:5%;
+
+}
+.f-element{
+	border-radius: 23px;
+	font-size:30px;
+	text-align: center;
+	color:#ffffff ;
+    border:solid 1px #77787a;
+    background: transparent;
+	padding-left: 7px;
+	*background: #2F2F2F;
+	height:47px;
+	
+
+	
+}
+.f-element:focused{
+	border:0 ;
+	outline: none;
+	overflow: hidden;
+}
+.f-element option {
+	padding-left: 4px;
+	background: black;
+
+	
+}
+.f-el1{
+	margin-left:25px;
+}
+.f-el2{
+	margin-left:35px;
+
+}
+.sbox{
+
+	width: 500px;
+	margin-top:25px; 
+}
+.sblock{
+	width:520px;
+	height:400px;
+	margin-left: 390px;
+	padding-top: 150px;
+}
+.sbtn2{
+	border-radius: 37px;
+	background:#e94e38;
+	color:#fff;
+	border:solid 1px #e94e38;
+	font-size: 28px;
+	margin-left:140px;
+	margin-top:15px;
+	padding:15px;
+
+}
+.text1{
+	padding-left:-20px;
+	padding-bottom:30px;
+
+	color:white;
+	font-size:40px;
+	text-align: center;
+}
+.bgop{
+	background: url(../img/search.png);
+	height:440px;
+
+}
+.bar{
+	height:55px;
+	width:1280px;
+	background: #fff;
+	border-bottom:solid 1px #e2dee0;
+	
+}
+.tools{
+	width:960px;
+	height: 55px;
+	margin-left: 160px;
+}
+.tools ul li a{
+	color:#9dacad;
+	font-size: 15px;
+	margin-left: 15px;
+	text-decoration: none;
+
+
+}
+.tools ul li{
+	float:left;
+	margin-top:17px;
+}
+.tools ul li a:hover{
+	color:#e94e38;
+}
+.rounded{
+	border-radius: 27px;
+}
+
+.midbutton{
+	font-size:22px;
+	padding:10px;
+	margin-top:4px;
+	margin-left: 15px;
+}
+
+.fs15{
+	font-size: 15px;
+}
+.ctools{
+	margin-top: 4px;
+}
+.midbutton .fa{ margin-left:5px;}
+.filter{
+	width: 300px;
+	display: inline-block;
+	margin-left: 15px;
+	color:#9dacad;
+	font-size: 15px;
+
+}
+.round-button{
+ border-radius:50%; 
+ display: inline-block;
+}
+.f-img{
+	padding:5px;
+	font-size: 20px;
+	width: 30px;
+	height: 30px;
+}
+.f-img i{
+	margin:5px;
+}
+/* Stilurile pentru continut */
+.content{
+	margin-left:180px;
+	width: 1000px;
+
+}
+.scontainer{
+	margin-top:25px; 
+	width:210px;
+	height:280px;
+	
+	
+	margin-right:40px;
+	float: left;
+
+}
+.cimage{
+	height: 140px;
+	width: 100%;
+	border-bottom: 3px solid;
+}
+.cimage img{
+	
+}
+.cinfo{
+	height: 120px;
+	color:#566375;
+	background: white;
+
+}
+
+.price{
+	position: absolute;
+	margin-top:3px;
+	margin-left:120px;
+	padding: 7px;
+	font-size: 16px;
+	border-radius: 27px;
+	width: 70px;
+	z-index: 3;
+}
+.cicon{
+	z-index: 3;
+	padding: 6px;
+	border:solid 3px;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	
+	margin-top:115px;
+	margin-left: 75px;
+	font-size: 37px;
+}
+.s-description{
+	color:#566375;
+	display: block;
+	
+	padding-top: 28px;
+	font-size: 20px;
+	margin-left: 6px;
+	margin-right: 6px;
+	margin-bottom: 12px;
+}
+.cinfo-link a{
+	text-decoration: none;
+	padding-left:30px;
+	margin-top: 15px;
+
+
+}
+.rating img{
+	padding-left: 37px;
+	box-shadow: 1px;
+}
+.opacity{
+	position: absolute;
+	width: 210px;
+	height:140px;
+	z-index: 2;
+	opacity:0.5;
+	cursor:url('img/cursor.png'),auto;
+
+}
+.infobut{
+	
+	border-radius: 27px;
+	margin-left: 70px;
+	margin-top:70px;
+
+}
+.infobut a{
+	z-index: 7;
+	text-decoration:none;
+	
+}
+.invisiblie{
+	display: none;
+
+}

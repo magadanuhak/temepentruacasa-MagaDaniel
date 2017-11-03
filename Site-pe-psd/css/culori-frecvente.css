@@ -1,0 +1,58 @@
+/* Stilurile pentru culorile frecvente utilizate pe site */
+/* Culori */
+.cred{
+	color:#e94e38;
+
+
+}
+.cgreen{
+	color:#1baf5d;
+}
+.cwhite{
+	color:#fff;
+}
+.corange{
+	color:#F19E1F;
+}
+
+/* backgorunduri */
+.bred{
+	background:#e94e38;
+}
+.bgreen{
+	background:#1baf5d;
+	
+
+}
+
+.bgray{
+	background: #949699;
+
+}
+.borange{
+	background: #F19E1F;
+
+}
+.bviolet{
+	background:#88499C;
+}
+/*borderuri */
+
+.bogreen{ 
+	border-color:#1baf5d;
+
+
+}
+.bored{
+	border-color:#e94e38;
+}
+.boviolet{
+	border-color:#88499C;
+}
+.boorange{
+	border-color:#F19E1F;
+
+}
+.bowhite{
+	border-color:white;
+}
