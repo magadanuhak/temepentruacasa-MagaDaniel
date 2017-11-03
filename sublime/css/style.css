@@ -1,0 +1,12 @@
+*{ margin: 0; padding:0;}
+.logo{background: url(../images/logo-bg.png);
+text-align: center; font-size:50px;
+}
+.pagina{
+width:85%;
+margin: 0 auto;
+}
+div .left , div .center, div .right{display: inline-block; margin-right: -4px;}
+.left{width: 130px; position: relative;bottom:520px;}
+.center{width: 70%;}
+.right{width: 125px;position: relative;bottom:180px;}

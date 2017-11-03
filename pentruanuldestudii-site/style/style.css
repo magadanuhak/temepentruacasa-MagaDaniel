@@ -1,0 +1,70 @@
+* {
+	-webkit-transition-property: all;
+	-webkit-transition-duration: .2s;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+	-moz-transition-property: all;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+}
+Html, Body {
+  height: 100%;
+}
+
+Body {
+  background-image: -webkit-linear-gradient(30deg, white -5%, white 5%, lightblue 0%, lightblue 10%, skyblue 5%, skyblue 15%, steelblue 10%, steelblue 20%, #38678f 15%, #38678f 25%, red 20%, red 30%, #ff6666 25%, #ff6666 35%, orange 30%, orange 40%, gold 35%, gold 45%, #ffef99 40%, #ffef99 50%, white 45%, white 55%, lightblue 50%, lightblue 60%, skyblue 55%, skyblue 65%, steelblue 60%, steelblue 70%, #38678f 65%, #38678f 75%, red 70%, red 80%, #ff6666 75%, #ff6666 85%, orange 80%, orange 90%, gold 85%, gold 95%, #ffef99 90%, #ffef99 100%), -webkit-linear-gradient(150deg, white -5%, white 5%, lightblue 0%, lightblue 10%, skyblue 5%, skyblue 15%, steelblue 10%, steelblue 20%, #38678f 15%, #38678f 25%, red 20%, red 30%, #ff6666 25%, #ff6666 35%, orange 30%, orange 40%, gold 35%, gold 45%, #ffef99 40%, #ffef99 50%, white 45%, white 55%, lightblue 50%, lightblue 60%, skyblue 55%, skyblue 65%, steelblue 60%, steelblue 70%, #38678f 65%, #38678f 75%, red 70%, red 80%, #ff6666 75%, #ff6666 85%, orange 80%, orange 90%, gold 85%, gold 95%, #ffef99 90%, #ffef99 100%);
+  background-image: linear-gradient(60deg, white -5%, white 5%, lightblue 0%, lightblue 10%, skyblue 5%, skyblue 15%, steelblue 10%, steelblue 20%, #38678f 15%, #38678f 25%, red 20%, red 30%, #ff6666 25%, #ff6666 35%, orange 30%, orange 40%, gold 35%, gold 45%, #ffef99 40%, #ffef99 50%, white 45%, white 55%, lightblue 50%, lightblue 60%, skyblue 55%, skyblue 65%, steelblue 60%, steelblue 70%, #38678f 65%, #38678f 75%, red 70%, red 80%, #ff6666 75%, #ff6666 85%, orange 80%, orange 90%, gold 85%, gold 95%, #ffef99 90%, #ffef99 100%), linear-gradient(-60deg, white -5%, white 5%, lightblue 0%, lightblue 10%, skyblue 5%, skyblue 15%, steelblue 10%, steelblue 20%, #38678f 15%, #38678f 25%, red 20%, red 30%, #ff6666 25%, #ff6666 35%, orange 30%, orange 40%, gold 35%, gold 45%, #ffef99 40%, #ffef99 50%, white 45%, white 55%, lightblue 50%, lightblue 60%, skyblue 55%, skyblue 65%, steelblue 60%, steelblue 70%, #38678f 65%, #38678f 75%, red 70%, red 80%, #ff6666 75%, #ff6666 85%, orange 80%, orange 90%, gold 85%, gold 95%, #ffef99 90%, #ffef99 100%);
+  background-color: orangered;
+  background-size: 6em 10.32em;
+  background-blend-mode: multiply, normal;
+}
+    
+.pagina{ width: 88% ;
+         height: 100%;
+         align:center;
+         margin-left: 5%;
+         margin-right:5%;
+         border-left: solid 1px;
+         border-right: solid 1px;
+         background:white ;
+         }
+    #sitetitle{  color:Orange;
+                 display: block}
+#site_header { background:#1b1b2b;
+  padding:45px;
+ 
+  
+  font-family: 'Oswald', sans-serif;
+    border-top: solid 1px red;
+              border-bottom: solid 2px red;
+              
+              border-radius: 1px ;  }
+.btn{margin:  4px; padding-bottom:  20px;
+  color:#999;
+  background:rgba(0, 0, 0, 0.5);
+  padding:10px 20px;
+  font-size:18px;
+  text-decoration:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+
+.btn:hover{
+  border:none;
+  background:rgba(0, 0, 0, 0.4);
+  background:#fff;
+  padding:20px 20px; #000;
+  color:#1b1b1b;
+}
+
+.footer{
+  font-size:8px;
+  color:#fff;
+  clear:both;
+  display:block;
+  letter-spacing:5px;
+  border:1px solid #fff;
+  padding:5px;
+  text-decoration:none;
+  width:210px;
+  margin:auto;
+  margin-top:400px;
+}
