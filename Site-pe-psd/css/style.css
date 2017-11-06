@@ -42,13 +42,13 @@ body{
 .nav ul li a{ 
 	color:#9dacad;
 
-	padding-top: 14px;
+	padding-top: 22px;
 	font-family: 'Slabo 40px', serif;
 	display: block;
 	height: 28px;
 
 	float:left;
-	margin:2px;
+	margin-right:3px;
 	text-decoration: none;
 }
 .nav ul li a:hover{
@@ -131,7 +131,7 @@ body{
 	margin-left:25px;
 }
 .f-el2{
-	margin-left:35px;
+	margin-left:75px;
 
 }
 .sbox{
@@ -142,8 +142,8 @@ body{
 .sblock{
 	width:520px;
 	height:400px;
-	margin-left: 390px;
-	padding-top: 150px;
+	margin-left: 370px;
+	padding-top: 110px;
 }
 .sbtn2{
 	border-radius: 37px;
@@ -151,7 +151,7 @@ body{
 	color:#fff;
 	border:solid 1px #e94e38;
 	font-size: 28px;
-	margin-left:140px;
+	margin-left:180px;
 	margin-top:15px;
 	padding:15px;
 
@@ -211,17 +211,22 @@ body{
 	font-size: 15px;
 }
 .ctools{
-	margin-top: 4px;
+	padding-top: 5px;
+
+}
+.dubai{
+	margin-left: 55px;
 }
 .midbutton .fa{ margin-left:5px;}
 .filter{
 	width: 300px;
 	display: inline-block;
-	margin-left: 15px;
+	margin-left: 55px;
 	color:#9dacad;
 	font-size: 15px;
 
 }
+
 .round-button{
  border-radius:50%; 
  display: inline-block;
@@ -237,7 +242,7 @@ body{
 }
 /* Stilurile pentru continut */
 .content{
-	margin-left:180px;
+	margin-left: 160px;
 	width: 1000px;
 
 }
@@ -332,5 +337,77 @@ body{
 }
 .invisiblie{
 	display: none;
+
+}
+
+.large-container{
+	margin-top: 24px;
+	width: 460px;
+	height:280px;
+	margin-right:40px;
+	float:left;
+	display: block;
+}
+.large-top{
+height: 141px;
+width:460px;
+border-bottom:solid 2px;
+}
+.large-top img{
+	z-index: 1;
+	width: 460px;
+	height: 141px;
+}
+.large-icon{
+	position:absolute;
+	margin-left: 60px;
+	margin-top:118px;
+	font-size: 37px;
+	padding:6px;
+	border: solid 3px;
+
+}
+.large-bottom{
+	width: 460px;
+	height: 122px;
+ background: white;
+
+}
+.large-top-title{
+	position: absolute;
+	z-index:3;
+	margin-top: 107px;
+	margin-left: 120px;
+}
+.large-ratting{
+
+}
+.large-ratting img{
+	
+	height: 14PX;
+	width: 70PX;
+	
+}
+.large-u-img{
+	width: 110px;
+	height: 100%;
+	border: red 1px solid;
+	float: left;
+}
+.large-u-text{
+width: 447px;
+height: 118px;
+border:solid 1px red;
+
+padding-top: 3px;
+}
+.large-u-text cite, h4{
+	padding-left:10px;
+	padding-top:3px;
+}
+.large-u-text .large-ratting img{
+	padding-left: 14px;
+}
+.large-u-text h4{
 
 }
